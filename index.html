@@ -81,6 +81,30 @@
       background-color: #00f0ff;
       color: #000;
     }
+
+    /* ✅ ADDED FOR MOBILE SPACING AND RESPONSIVE LAYOUT */
+    @media (max-width: 768px) {
+      .section-title {
+        font-size: 28px; /* Smaller title for mobile */
+        margin: 30px 0;
+      }
+
+      .scroll-row {
+        padding: 10px;
+        gap: 10px;
+      }
+
+      .mint-item img {
+        width: 110px;
+        height: 110px;
+      }
+
+      .mint-item button {
+        padding: 8px 14px;
+        font-size: 14px;
+      }
+    }
+    /* ✅ END MOBILE STYLING */
   </style>
 </head>
 <body>
